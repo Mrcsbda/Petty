@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Petty</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="shortcut icon" href="images/Logo.svg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;500;600&family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="nav-board">
+      <div>
+        <img src="images/Logo.svg" alt="Logo Petty" />
+        <span>Petty</span>
+      </div>
+      <ul>
+        <li>Inicio</li>
+        <li>Servicios</li>
+        <li>Productos</li>
+        <li>Contacto</li>
+        <li><a href="#title">Trabaja con nostros</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="container">
+        <div class="text-container">
+          <p class="text-1">
+            Nuestros peludos son un miembro más de la familia
+          </p>
+          <p class="text-2">
+            Por eso cuidalos con <span>Petty</span>, más cerca de ti.
+          </p>
+        </div>
+        <div class="images-container">
+          <div class="cat"></div>
+          <div class="dog"></div>
+        </div>
+      </section>
+      <h2 id="title">¿Quieres unirte a nuestro equipo de trabajo?</h2>
+      <p class="text-3">
+        Brindanos tu información y si nos interesa, <br>
+        ¡Nos contactaremos contigo!
+      </p>
+      <section class="form-container">
+        <form action="">
+          <label for="name">
+            <span>Nombre Completo</span>
+          </label>
+          <input id="name" type="text" placeholder="Nombres y apellidos" required>
+          <label for="telefono">
+            <span>Telefono</span>
+          </label>
+          <input id="telefono" type="text" placeholder="Número telefonico" required>
+          <label for="casilla1">
+            <span>¿Por qué te interesa trabajar en Petty?</span>
+          </label>
+          <textarea id="casilla1" required></textarea>
+          <label for="casilla2">
+            <span>¿Por qué deberiamos contratarte?</span>
+          </label>
+          <textarea id="casilla2" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+        <div class="logo"></div>
+      </section>
+    </main>
+  </body>
+</html>
